@@ -13,7 +13,7 @@ services:
     volumes:
       - standalone_data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: dellanera
+      MYSQL_ROOT_PASSWORD: password
   adminer:
     image: adminer
     restart: always
