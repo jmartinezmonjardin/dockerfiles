@@ -14,8 +14,8 @@ services:
       - standalone_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 8080:8080
